@@ -7,6 +7,7 @@
 ::-webkit-scrollbar-track {
   background: #ffffff60;
   border-radius: 10px;
+  margin:15px;
 }
 
 /* Handle */
