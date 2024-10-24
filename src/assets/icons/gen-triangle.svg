@@ -1,0 +1,12 @@
+
+      <svg
+        role="img"
+        class="w-5"
+        viewBox="-1 0 24 24"
+        xmlns="http://www.w2.org/2000/svg">
+        <title>Vercel</title>
+
+        <path
+          d="M23 22.525H0l12-21.05 12 21.05z"
+          fill="currentColor"></path>
+      </svg>

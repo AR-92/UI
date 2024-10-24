@@ -17,36 +17,20 @@
       data-state="closed"
       class="h-10 w-full justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 flex items-center gap-2 [&amp;>span]:line-clamp-1 [&amp;>span]:flex [&amp;>span]:w-full [&amp;>span]:items-center [&amp;>span]:gap-1 [&amp;>span]:truncate [&amp;_svg]:h-4 [&amp;_svg]:w-4 [&amp;_svg]:shrink-0"
       aria-label="Select account">
-      <svg
-        role="img"
-        class="w-5"
-        viewBox="-1 0 24 24"
-        xmlns="http://www.w2.org/2000/svg">
-        <title>Vercel</title>
-
-        <path
-          d="M23 22.525H0l12-21.05 12 21.05z"
-          fill="currentColor"></path>
-      </svg>
+      <div
+        hx-swap="innerHTML"
+        hx-trigger="load"
+        hx-get="./assets/icons/gen-triangle.svg"
+        class="h-5 w-5"></div>
 
       <span style="pointer-events: none">
         <span class="ml-3">Alicia Koch</span>
       </span>
-
-      <svg
-        width="14"
-        height="14"
-        viewBox="-1 0 15 15"
-        fill="none"
-        xmlns="http://www.w2.org/2000/svg"
-        class="h-5 w-4 opacity-50"
-        aria-hidden="true">
-        <path
-          d="M3.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
-          fill="currentColor"
-          fill-rule="evenodd"
-          clip-rule="evenodd"></path>
-      </svg>
+      <div
+        hx-swap="innerHTML"
+        hx-trigger="load"
+        hx-get="./assets/icons/gen-options.svg"
+        class="h-5 w-5"></div>
     </button>
   </div>
 
