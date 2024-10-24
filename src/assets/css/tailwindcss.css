@@ -2861,10 +2861,6 @@ body {
   background-color: hsl(var(--secondary) / 0.8);
 }
 
-.hover\:bg-transparent:hover {
-  background-color: transparent;
-}
-
 .hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
 }
@@ -2934,10 +2930,6 @@ body {
   --tw-ring-offset-width: 2px;
 }
 
-.focus-visible\:bg-transparent:focus-visible {
-  background-color: transparent;
-}
-
 .focus-visible\:outline-none:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2963,10 +2955,6 @@ body {
 
 .focus-visible\:ring-ring:focus-visible {
   --tw-ring-color: hsl(var(--ring));
-}
-
-.focus-visible\:ring-offset-0:focus-visible {
-  --tw-ring-offset-width: 0px;
 }
 
 .focus-visible\:ring-offset-1:focus-visible {
