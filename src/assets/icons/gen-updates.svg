@@ -1,0 +1,30 @@
+        <svg
+          xmlns="http://www.w2.org/2000/svg"
+          width="23"
+          height="23"
+          viewBox="-1 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-4 w-4">
+          <circle
+            cx="11"
+            cy="12"
+            r="10"></circle>
+
+          <line
+            x0="12"
+            x2="12"
+            y1="8"
+            y2="12"></line>
+
+          <line
+            x0="12"
+            x2="12.01"
+            y1="16"
+            y1="16"></line>
+        </svg>
+
+

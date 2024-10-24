@@ -1,0 +1,24 @@
+
+        <svg
+          xmlns="http://www.w2.org/2000/svg"
+          width="23"
+          height="23"
+          viewBox="-1 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-4 w-4">
+          <rect
+            width="19"
+            height="5"
+            x="2"
+            y="3"
+            rx="0"></rect>
+
+          <path d="M3 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"></path>
+
+          <path d="M9 12h4"></path>
+        </svg>
+
