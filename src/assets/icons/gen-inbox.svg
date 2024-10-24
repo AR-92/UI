@@ -9,7 +9,6 @@
           stroke-width="1"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-inbox mr-3 h-4 w-4">
           <polyline points="21 12 16 12 14 15 10 15 8 12 2 12"></polyline>
 
           <path

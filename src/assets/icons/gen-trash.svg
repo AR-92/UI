@@ -9,7 +9,6 @@
           stroke-width="1"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-trash1 mr-2 h-4 w-4">
           <path d="M2 6h18"></path>
 
           <path d="M18 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>

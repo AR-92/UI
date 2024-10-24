@@ -9,8 +9,7 @@
           stroke-width="1"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-send mr-3 h-4 w-4">
-          <path d="m21 2-7 20-4-9-9-4Z"></path>
+         <path d="m21 2-7 20-4-9-9-4Z"></path>
 
           <path d="M21 2 11 13"></path>
         </svg>
