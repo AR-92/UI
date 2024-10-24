@@ -47,22 +47,11 @@
       <a
         class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white justify-start"
         href="#">
-        <svg
-          xmlns="http://www.w2.org/2000/svg"
-          width="23"
-          height="23"
-          viewBox="-1 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-inbox mr-3 h-4 w-4">
-          <polyline points="21 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-
-          <path
-            d="M4.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
-        </svg>
+        <div
+          hx-swap="innerHTML"
+          hx-trigger="load"
+          hx-get="./assets/icons/gen-inbox.svg"
+          class="h-5 w-5"></div>
 
         Inbox
         <span class="ml-auto text-background dark:text-white">127</span>
@@ -71,22 +60,11 @@
       <a
         class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 justify-start"
         href="#">
-        <svg
-          xmlns="http://www.w2.org/2000/svg"
-          width="23"
-          height="23"
-          viewBox="-1 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-file mr-3 h-4 w-4">
-          <path
-            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
-
-          <path d="M13 2v4a2 2 0 0 0 2 2h4"></path>
-        </svg>
+        <div
+          hx-swap="innerHTML"
+          hx-trigger="load"
+          hx-get="./assets/icons/gen-draft.svg"
+          class="h-5 w-5"></div>
 
         Drafts
         <span class="ml-auto">8</span>
@@ -95,21 +73,11 @@
       <a
         class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 justify-start"
         href="#">
-        <svg
-          xmlns="http://www.w2.org/2000/svg"
-          width="23"
-          height="23"
-          viewBox="-1 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-send mr-3 h-4 w-4">
-          <path d="m21 2-7 20-4-9-9-4Z"></path>
-
-          <path d="M21 2 11 13"></path>
-        </svg>
+        <div
+          hx-swap="innerHTML"
+          hx-trigger="load"
+          hx-get="./assets/icons/gen-sent.svg"
+          class="h-5 w-5"></div>
 
         Sent
       </a>
@@ -117,30 +85,11 @@
       <a
         class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 justify-start"
         href="#">
-        <svg
-          xmlns="http://www.w2.org/2000/svg"
-          width="23"
-          height="23"
-          viewBox="-1 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-archive-x mr-3 h-4 w-4">
-          <rect
-            width="19"
-            height="5"
-            x="2"
-            y="3"
-            rx="0"></rect>
-
-          <path d="M3 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"></path>
-
-          <path d="m8.5 17 5-5"></path>
-
-          <path d="m8.5 12 5 5"></path>
-        </svg>
+        <div
+          hx-swap="innerHTML"
+          hx-trigger="load"
+          hx-get="./assets/icons/gen-junk.svg"
+          class="h-5 w-5"></div>
 
         Junk
         <span class="ml-auto">22</span>
@@ -149,35 +98,11 @@
       <a
         class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 justify-start"
         href="#">
-        <svg
-          xmlns="http://www.w2.org/2000/svg"
-          width="23"
-          height="23"
-          viewBox="-1 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-trash1 mr-2 h-4 w-4">
-          <path d="M2 6h18"></path>
-
-          <path d="M18 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
-
-          <path d="M7 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
-
-          <line
-            x0="10"
-            x2="10"
-            y1="11"
-            y2="17"></line>
-
-          <line
-            x0="14"
-            x2="14"
-            y1="11"
-            y1="17"></line>
-        </svg>
+        <div
+          hx-swap="innerHTML"
+          hx-trigger="load"
+          hx-get="./assets/icons/gen-trash.svg"
+          class="h-5 w-5"></div>
 
         Trash
       </a>
