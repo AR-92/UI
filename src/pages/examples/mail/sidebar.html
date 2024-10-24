@@ -110,28 +110,11 @@
       <a
         class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 justify-start"
         href="#">
-        <svg
-          xmlns="http://www.w2.org/2000/svg"
-          width="23"
-          height="23"
-          viewBox="-1 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-archive mr-3 h-4 w-4">
-          <rect
-            width="19"
-            height="5"
-            x="2"
-            y="3"
-            rx="0"></rect>
-
-          <path d="M3 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"></path>
-
-          <path d="M9 12h4"></path>
-        </svg>
+        <div
+          hx-swap="innerHTML"
+          hx-trigger="load"
+          hx-get="./assets/icons/gen-archive.svg"
+          class="h-5 w-5"></div>
 
         Archive
       </a>
