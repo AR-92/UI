@@ -1109,10 +1109,6 @@ body {
   height: 2.25rem;
 }
 
-.h-\[1\.2rem\] {
-  height: 1.2rem;
-}
-
 .h-\[140px\] {
   height: 140px;
 }
@@ -1299,10 +1295,6 @@ body {
 
 .w-9 {
   width: 2.25rem;
-}
-
-.w-\[1\.2rem\] {
-  width: 1.2rem;
 }
 
 .w-\[100px\] {
