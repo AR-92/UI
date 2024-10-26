@@ -8,7 +8,7 @@ while true; do
     if test -n "$(git status --porcelain)" ; then
 
         # find . -type f -name "*.html" -exec perl -i -pe 's/(<[^>]+>)(\n)?/\1\n\n/g' {} \;
-        prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line
+        prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line --loglevel warn
         # prettier --write "**/*.html" --tab-width 4
         # Add changes to the staging area
         git add .
