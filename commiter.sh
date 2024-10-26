@@ -13,7 +13,7 @@ while true; do
         prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line > /dev/null 2>&1
         # prettier --write "**/*.html" --tab-width 4
         # Add changes to the staging area
-        echo -e "\033[31m ᙅᕼᗩᑎᘜᙓS ᗩᖇᙓ ᖴOᙀᑎᗪ ᙅOᙏᙏIᑎT IT TO ᘜITᕼᙀᙖ !  \033[0m"
+        echo -e "\033[41m ᙅᕼᗩᑎᘜᙓS ᗩᖇᙓ ᖴOᙀᑎᗪ ᙅOᙏᙏIᑎT IT TO ᘜITᕼᙀᙖ !  \033[0m"
         git add .
 
         # Commit the changes
