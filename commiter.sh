@@ -13,7 +13,10 @@ while true; do
         prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line > /dev/null 2>&1
         # prettier --write "**/*.html" --tab-width 4
         # Add changes to the staging area
-        echo -e "\033[41m ᙅᕼᗩᑎᘜᙓS ᗩᖇᙓ ᖴOᙀᑎᗪ ᙅOᙏᙏIᑎT IT TO ᘜITᕼᙀᙖ !  \033[0m"
+
+        echo -e "\033[1;35m ⮞ ᙅᕼᗩᑎᘜᙓS ᗩᖇᙓ ᖴOᙀᑎᗪ ᙅOᙏᙏIᑎT IT TO ᘜITᕼᙀᙖ ! "
+        echo ""
+
         git add .
 
         # Commit the changes
@@ -21,7 +24,7 @@ while true; do
 
         # Push the changes to the remote repository
         git push origin main  # Replace 'main' with the branch name if needed
-
+        echo "\033[0m"
         echo "Changes committed and pushed at $(date)"
     else
         echo "No changes detected at $(date)"
