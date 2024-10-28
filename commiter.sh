@@ -15,7 +15,7 @@ while true; do
         # prettier --write "**/*.html" --tab-width 4
         # Add changes to the staging area
 
-        echo -e "\033[1;35m ⮞ ᙅᕼᗩᑎᘜᙓS ᗩᖇᙓ ᖴOᙀᑎᗪ ᙅOᙏᙏIᑎT IT TO ᘜITᕼᙀᙖ ! "
+        echo -e "\033[1;35m ⮞ ᙅᕼᗩᑎᘜᙓS ᗩᖇᙓ ᖴOᙀᑎᗪ ᙅOᙏᙏIᑎT IT TO ᘜITᕼᙀᙖ ! \033[0m"
         echo ""
 
         git add .
