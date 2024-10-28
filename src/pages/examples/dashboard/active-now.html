@@ -2,17 +2,10 @@
   <div class="p-6 flex flex-row items-center justify-between space-y-0 pb-2">
     <h3 class="tracking-tight text-sm font-medium">Active Now</h3>
 
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
-      class="h-4 w-4 text-muted-foreground">
-      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-    </svg>
+    <div
+      hx-trigger="load"
+      hx-swap="innerHTML"
+      hx-get="./assets/icons/gen-activity.svg"></div>
   </div>
 
   <div class="p-6 pt-0">
