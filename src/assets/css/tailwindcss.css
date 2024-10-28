@@ -799,10 +799,6 @@ body {
   margin: 2rem;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
 .-mx-1 {
   margin-left: -0.25rem;
   margin-right: -0.25rem;
@@ -1171,10 +1167,6 @@ body {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-1 {
-  height: 0.25rem;
 }
 
 .max-h-\[250px\] {
@@ -1606,10 +1598,6 @@ body {
 
 .auto-rows-min {
   grid-auto-rows: min-content;
-}
-
-.grid-cols-10 {
-  grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
