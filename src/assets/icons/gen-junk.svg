@@ -8,7 +8,7 @@
           stroke-width="1"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="mr-3 h-4 w-4">
+          class="h-4 w-4">
           <rect
             width="19"
             height="5"
