@@ -9,7 +9,7 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground">
+            class="h-4 w-4">
             <circle
               cx="11"
               cy="11"

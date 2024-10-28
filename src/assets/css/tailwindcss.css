@@ -751,6 +751,10 @@ body {
   top: 100%;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }

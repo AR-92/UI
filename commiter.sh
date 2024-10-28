@@ -25,7 +25,6 @@ while true; do
 
         # Push the changes to the remote repository
         git push origin main  # Replace 'main' with the branch name if needed
-        echo "\033[0m"
         echo "Changes committed and pushed at $(date)"
     else
         echo "No changes detected at $(date)"

@@ -1,0 +1,4182 @@
+<main
+  class="flex flex-col gap-10"
+  id="page">
+  <div class="container relative">
+    <section
+      class="mx-auto flex flex-col items-start gap-2 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10">
+      <h1
+        class="text-3xl font-bold leading-tight tracking-tighter md:text-4xl lg:leading-[1.1] hidden md:block">
+        Check out some Icons
+      </h1>
+
+      <p class="max-w-2xl text-lg font-light text-foreground">
+        Dashboard, cards, authentication. Some examples built using the
+        components. Use this as a guide to build your own.
+      </p>
+    </section>
+  </div>
+
+  <div class="container relative grid grid-cols-2 gap-6">
+    <div class="flex flex-col gap-6 p-6">
+      <section>
+        <p class="font-bold">Icons for the General</p>
+      </section>
+    </div>
+    <div class="flex flex-col gap-6 p-6">
+      <section>
+        <p class="font-bold">Icons for the Logos</p>
+      </section>
+      <section class="grid grid-cols-10 gap-8">
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-android.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-angular.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-apple.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-bitbucket.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-bitcoin.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-buffer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-chrome.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-closed-captioning.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-codepen.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-css3.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-designernews.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-dribbble.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-dropbox.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-euro.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-facebook.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-flickr.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-foursquare.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-freebsd-devil.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-game-controller-a.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-game-controller-b.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-github.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-google.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-googleplus.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-hackernews.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-html5.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-instagram.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-ionic.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-ionitron.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-javascript.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-linkedin.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-markdown.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-model-s.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-no-smoking.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-nodejs.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-npm.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-octocat.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-pinterest.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-playstation.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-polymer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-python.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-reddit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-rss.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-sass.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-skype.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-slack.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-snapchat.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-steam.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-tumblr.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-tux.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-twitch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-twitter.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-usd.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-vimeo.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-vk.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-whatsapp.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-windows.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-wordpress.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-xbox.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-xing.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-yahoo.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-yen.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/logo-youtube.svg"></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="container relative grid grid-cols-2 gap-8">
+    <div class="flex flex-col gap-6 p-6">
+      <section>
+        <p class="font-bold">Icons for the iOS style</p>
+      </section>
+
+      <section class="grid grid-cols-10 gap-8">
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-add-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-add-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-add.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-airplane.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-alarm.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-albums.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-alert.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-american-football.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-analytics.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-aperture.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-apps.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-appstore.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-archive.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-back.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropdown-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropdown.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropleft-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropleft.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropright-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropright.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropup-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-dropup.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-forward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-round-back.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-round-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-round-forward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-round-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-arrow-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-at.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-attach.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-backspace.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-barcode.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-baseball.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-basket.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-basketball.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-battery-charging.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-battery-dead.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-battery-full.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-beaker.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bed.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-beer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bicycle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bluetooth.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-boat.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-body.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bonfire.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-book.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bookmark.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bookmarks.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bowtie.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-briefcase.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-browsers.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-brush.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bug.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-build.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bulb.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-bus.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-business.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cafe.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-calculator.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-calendar.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-call.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-camera.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-car.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-card.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cart.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cash.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cellular.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-chatboxes.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-chatbubbles.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-checkbox-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-checkbox.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-checkmark-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-checkmark-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-checkmark.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-clipboard.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-clock.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-close-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-close-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-close.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloud-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloud-done.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloud-download.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloud-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloud-upload.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloud.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloudy-night.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cloudy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-code-download.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-code-working.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-code.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cog.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-color-fill.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-color-filter.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-color-palette.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-color-wand.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-compass.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-construct.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-contact.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-contacts.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-contract.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-contrast.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-copy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-create.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-crop.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cube.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-cut.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-desktop.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-disc.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-document.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-done-all.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-download.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-easel.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-egg.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-exit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-expand.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-eye-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-eye.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-fastforward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-female.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-filing.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-film.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-finger-print.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-fitness.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flag.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flame.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flash-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flash.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flashlight.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flask.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-flower.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-folder-open.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-folder.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-football.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-funnel.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-gift.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-git-branch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-git-commit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-git-compare.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-git-merge.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-git-network.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-git-pull-request.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-glasses.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-globe.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-grid.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-hammer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-hand.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-happy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-headset.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-heart.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-heart-dislike.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-heart-empty.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-heart-half.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-help-buoy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-help-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-help-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-help.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-home.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-hourglass.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-ice-cream.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-image.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-images.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-infinite.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-information-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-information-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-information.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-jet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-journal.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-key.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-keypad.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-laptop.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-leaf.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-link.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-list-box.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-list.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-locate.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-lock.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-log-in.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-log-out.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-magnet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-mail-open.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-mail-unread.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-mail.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-male.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-man.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-map.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-medal.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-medical.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-medkit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-megaphone.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-menu.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-mic-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-mic.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-microphone.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-moon.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-more.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-move.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-musical-note.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-musical-notes.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-navigate.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-notifications-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-notifications-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-notifications.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-nuclear.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-nutrition.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-open.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-options.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-outlet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-paper-plane.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-paper.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-partly-sunny.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pause.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-paw.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-people.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-person-add.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-person.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-phone-landscape.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-phone-portrait.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-photos.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pie.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pin.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pint.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pizza.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-planet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-play-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-play.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-podium.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-power.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pricetag.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pricetags.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-print.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-pulse.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-qr-scanner.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-quote.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-radio-button-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-radio-button-on.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-radio.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-rainy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-recording.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-redo.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-refresh-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-refresh.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-remove-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-remove-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-remove.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-reorder.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-repeat.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-resize.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-restaurant.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-return-left.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-return-right.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-reverse-camera.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-rewind.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-ribbon.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-rocket.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-rose.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-sad.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-save.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-school.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-search.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-send.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-settings.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-share-alt.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-share.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-shirt.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-shuffle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-skip-backward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-skip-forward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-snow.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-speedometer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-square-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-square.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-star-half.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-star-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-star.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-stats.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-stopwatch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-subway.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-sunny.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-swap.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-switch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-sync.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-tablet-landscape.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-tablet-portrait.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-tennisball.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-text.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-thermometer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-thumbs-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-thumbs-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-thunderstorm.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-time.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-timer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-today.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-train.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-transgender.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-trash.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-trending-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-trending-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-trophy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-tv.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-umbrella.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-undo.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-unlock.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-videocam.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-volume-high.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-volume-low.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-volume-mute.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-volume-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-wallet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-walk.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-warning.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-watch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-water.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-wifi.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-wine.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/ios-woman.svg"></div>
+      </section>
+    </div>
+
+    <div class="flex flex-col gap-6 p-6">
+      <section>
+        <p class="font-bold">Icons for the Material style</p>
+      </section>
+
+      <section class="grid grid-cols-10 gap-8">
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-add-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-add-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-add.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-airplane.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-alarm.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-albums.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-alert.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-american-football.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-analytics.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-aperture.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-apps.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-appstore.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-archive.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-back.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropdown-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropdown.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropleft-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropleft.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropright-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropright.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropup-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-dropup.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-forward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-round-back.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-round-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-round-forward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-round-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-arrow-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-at.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-attach.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-backspace.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-barcode.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-baseball.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-basket.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-basketball.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-battery-charging.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-battery-dead.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-battery-full.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-beaker.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bed.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-beer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bicycle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bluetooth.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-boat.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-body.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bonfire.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-book.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bookmark.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bookmarks.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bowtie.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-briefcase.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-browsers.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-brush.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bug.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-build.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bulb.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-bus.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-business.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cafe.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-calculator.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-calendar.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-call.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-camera.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-car.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-card.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cart.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cash.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cellular.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-chatboxes.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-chatbubbles.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-checkbox-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-checkbox.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-checkmark-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-checkmark-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-checkmark.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-clipboard.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-clock.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-close-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-close-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-close.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloud-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloud-done.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloud-download.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloud-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloud-upload.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloud.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloudy-night.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cloudy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-code-download.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-code-working.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-code.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cog.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-color-fill.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-color-filter.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-color-palette.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-color-wand.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-compass.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-construct.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-contact.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-contacts.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-contract.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-contrast.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-copy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-create.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-crop.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cube.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-cut.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-desktop.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-disc.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-document.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-done-all.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-download.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-easel.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-egg.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-exit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-expand.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-eye-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-eye.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-fastforward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-female.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-filing.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-film.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-finger-print.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-fitness.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flag.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flame.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flash-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flash.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flashlight.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flask.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-flower.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-folder-open.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-folder.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-football.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-funnel.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-gift.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-git-branch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-git-commit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-git-compare.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-git-merge.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-git-network.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-git-pull-request.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-glasses.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-globe.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-grid.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-hammer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-hand.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-happy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-headset.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-heart.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-heart-dislike.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-heart-empty.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-heart-half.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-help-buoy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-help-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-help-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-help.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-home.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-hourglass.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-ice-cream.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-image.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-images.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-infinite.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-information-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-information-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-information.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-jet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-journal.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-key.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-keypad.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-laptop.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-leaf.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-link.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-list-box.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-list.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-locate.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-lock.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-log-in.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-log-out.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-magnet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-mail-open.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-mail-unread.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-mail.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-male.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-man.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-map.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-medal.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-medical.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-medkit.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-megaphone.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-menu.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-mic-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-mic.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-microphone.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-moon.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-more.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-move.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-musical-note.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-musical-notes.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-navigate.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-notifications-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-notifications-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-notifications.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-nuclear.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-nutrition.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-open.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-options.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-outlet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-paper-plane.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-paper.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-partly-sunny.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pause.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-paw.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-people.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-person-add.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-person.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-phone-landscape.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-phone-portrait.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-photos.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pie.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pin.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pint.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pizza.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-planet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-play-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-play.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-podium.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-power.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pricetag.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pricetags.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-print.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-pulse.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-qr-scanner.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-quote.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-radio-button-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-radio-button-on.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-radio.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-rainy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-recording.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-redo.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-refresh-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-refresh.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-remove-circle-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-remove-circle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-remove.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-reorder.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-repeat.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-resize.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-restaurant.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-return-left.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-return-right.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-reverse-camera.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-rewind.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-ribbon.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-rocket.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-rose.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-sad.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-save.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-school.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-search.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-send.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-settings.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-share-alt.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-share.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-shirt.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-shuffle.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-skip-backward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-skip-forward.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-snow.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-speedometer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-square-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-square.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-star-half.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-star-outline.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-star.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-stats.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-stopwatch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-subway.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-sunny.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-swap.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-switch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-sync.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-tablet-landscape.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-tablet-portrait.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-tennisball.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-text.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-thermometer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-thumbs-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-thumbs-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-thunderstorm.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-time.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-timer.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-today.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-train.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-transgender.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-trash.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-trending-down.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-trending-up.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-trophy.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-tv.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-umbrella.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-undo.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-unlock.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-videocam.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-volume-high.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-volume-low.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-volume-mute.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-volume-off.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-wallet.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-walk.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-warning.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-watch.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-water.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-wifi.svg"></div>
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-wine.svg"></div>
+
+        <div
+          class="w-6 h-6"
+          hx-trigger="load"
+          hx-swap="innerHTML"
+          hx-get="./assets/icons/md-woman.svg"></div>
+      </section>
+    </div>
+  </div>
+</main>
