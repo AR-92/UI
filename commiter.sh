@@ -10,7 +10,8 @@ while true; do
         echo -e "\033[36m ⮞ ҒORMΔΓIṈG ĦΓML IṈ ΓĦE BΔCKGROUṈD ᕈLEΔSE WΔIΓ ! \033[0m"
 
         # find . -type f -name "*.html" -exec perl -i -pe 's/(<[^>]+>)(\n)?/\1\n\n/g' {} \;
-        prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line > /dev/null 2>&1
+        # prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line > /dev/null 2>&1 
+         prettier --write "**/*.html" --single-attribute-per-line --html-whitespace-sensitivity ignore --bracket-same-line > /dev/null 2>&1
         # prettier --write "**/*.html" --tab-width 4
         # Add changes to the staging area
 
