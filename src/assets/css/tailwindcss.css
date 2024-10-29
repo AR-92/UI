@@ -1464,10 +1464,6 @@ body {
   max-width: 20rem;
 }
 
-.max-w-8 {
-  max-width: 2rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -3732,16 +3728,8 @@ body {
     grid-column: span 6 / span 6;
   }
 
-  .lg\:mr-6 {
-    margin-right: 1.5rem;
-  }
-
   .lg\:block {
     display: block;
-  }
-
-  .lg\:inline-block {
-    display: inline-block;
   }
 
   .lg\:flex {
