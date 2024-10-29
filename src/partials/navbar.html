@@ -76,6 +76,16 @@
         <a
           _="on click remove .text-primary from .nav then add .text-primary on me"
           class="transition-colors hover:text-primary text-foreground/60 cursor-pointer nav"
+          hx-get="./pages/home.html"
+          hx-trigger="click"
+          hx-target="#page"
+          hx-swap="outerHTML">
+          Home
+        </a>
+
+        <a
+          _="on click remove .text-primary from .nav then add .text-primary on me"
+          class="transition-colors hover:text-primary text-foreground/60 cursor-pointer nav"
           hx-get="./pages/license/license.html"
           hx-trigger="click"
           hx-target="#page"
