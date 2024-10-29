@@ -1,33 +1,154 @@
-<div
-  id="page"
-  class="flex items-center justify-center min-h-1/2">
-  <div class="flex flex-col items-center justify-center">
-    <div class="m-8 w-72">
-      <div
-        hx-get="./assets/icons/hello.svg"
-        hx-trigger="load"
-        hx-swap="outerHTML"></div>
-    </div>
-    <p class="max-w-2xl text-lg font-light text-foreground text-center mb-4">
-      Copy. Paste. Done. An intuitive library that merges HTMX, Hyperscript,
-      TailwindCSS, AnimateCSS, and Lucide icons to bring life to your interface
-      in just one line.
-    </p>
+<div id="page">
+  <div class="flex items-center justify-center min-h-1/2">
+    <div class="flex flex-col items-center justify-center">
+      <div class="m-8 w-72">
+        <div
+          hx-get="./assets/icons/hello.svg"
+          hx-trigger="load"
+          hx-swap="outerHTML"></div>
+      </div>
+      <p class="max-w-2xl text-lg font-light text-foreground text-center mb-4">
+        Copy. Paste. Done. An intuitive library that merges HTMX, Hyperscript,
+        TailwindCSS, AnimateCSS, and Lucide icons to bring life to your
+        interface in just one line.
+      </p>
 
-    <div class="flex w-full items-center justify-center gap-2 py-2">
-      <a
-        class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs"
-        href="/docs">
-        Get Started
-      </a>
+      <div class="flex w-full items-center justify-center gap-2 py-2">
+        <a
+          class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs"
+          href="/docs">
+          Get Started
+        </a>
 
-      <a
-        target="_blank"
-        rel="noreferrer"
-        class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
-        href="https://github.com/shadcn-ui/ui">
-        GitHub
-      </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+          href="https://github.com/shadcn-ui/ui">
+          GitHub
+        </a>
+      </div>
     </div>
   </div>
+
+  <section class="container mt-8">
+    <div class="space-y-8">
+      <div
+        class="theme-zinc w-full"
+        style="--radius: 0.5rem">
+        <div
+          class="md:grids-col-2 grid md:gap-4 lg:grid-cols-10 xl:grid-cols-11 xl:gap-4">
+          <div class="space-y-4 lg:col-span-4 xl:col-span-6 xl:space-y-4">
+            <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-2">
+              <div
+                hx-get="./pages/themes/total-revenue.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+
+              <div
+                hx-get="./pages/themes/subscriptions.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+            </div>
+
+            <div class="grid gap-1 sm:grid-cols-[260px_1fr] md:hidden">
+              <div
+                hx-get="./pages/themes/calender.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+
+              <div class="pt-3 sm:pl-2 sm:pt-0 xl:pl-4">
+                <div
+                  hx-get="./pages/themes/move-goal.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+              </div>
+
+              <div class="pt-3 sm:col-span-2 xl:pt-4">
+                <div
+                  hx-get="./pages/themes/exercise-minutes.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+              </div>
+            </div>
+
+            <div
+              class="grid gap-4 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+              <div class="space-y-4 xl:space-y-4">
+                <div
+                  hx-get="./pages/themes/team-members.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+
+                <div
+                  hx-get="./pages/themes/cookie-settings.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+
+                <div
+                  hx-get="./pages/themes/payment-method.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+              </div>
+
+              <div class="space-y-4 xl:space-y-4">
+                <div
+                  hx-get="./pages/themes/chat.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+
+                <div
+                  hx-get="./pages/themes/signup.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+
+                <div
+                  hx-get="./pages/themes/report-an-issue.html"
+                  hx-trigger="load"
+                  hx-swap="outerHTML"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-4 lg:col-span-6 xl:col-span-5 xl:space-y-4">
+            <div class="flex space-x-4">
+              <div
+                hx-get="./pages/themes/calender.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+
+              <div
+                hx-get="./pages/themes/move-goal.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+            </div>
+
+            <div
+              hx-get="./pages/themes/exercise-minutes.html"
+              hx-trigger="load"
+              hx-swap="outerHTML"></div>
+
+            <div class="hidden md:block">
+              <div
+                hx-get="./pages/themes/payments.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+            </div>
+
+            <div
+              hx-get="./pages/themes/share-this-document.html"
+              hx-trigger="load"
+              hx-swap="outerHTML"></div>
+
+            <div class="xl:hidden">
+              <div
+                hx-get="./pages/themes/report-an-issue.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
