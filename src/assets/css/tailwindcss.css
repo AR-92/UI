@@ -1388,6 +1388,18 @@ body {
   width: 1px;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
