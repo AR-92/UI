@@ -22,15 +22,7 @@
         <a
           class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs"
           href="/docs">
-          Get Started
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
-          href="https://github.com/shadcn-ui/ui">
-          GitHub
+          Customize Theme
         </a>
       </div>
     </div>
@@ -153,16 +145,32 @@
                 hx-trigger="load"
                 hx-swap="outerHTML"></div>
             </div>
-
             <div
               hx-get="./pages/themes/share-this-document.html"
               hx-trigger="load"
               hx-swap="outerHTML"></div>
 
-            <div
-              hx-get="./pages/blocks/charts/time-in-bed.html"
-              hx-trigger="load"
-              hx-swap="outerHTML"></div>
+            <div class="grid grid-cols-2 gap-4">
+              <div
+                hx-get="./pages/blocks/charts/time-in-bed.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+
+              <div
+                hx-get="./pages/blocks/charts/radial.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+
+              <div
+                hx-get="./pages/blocks/charts/active-energy.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+
+              <div
+                hx-get="./pages/blocks/charts/resting.html"
+                hx-trigger="load"
+                hx-swap="outerHTML"></div>
+            </div>
 
             <div class="xl:hidden">
               <div
