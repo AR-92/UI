@@ -1,0 +1,43 @@
+<div
+  class="rounded-xl border bg-card text-card-foreground shadow"
+  x-chunk="A card with a form to edit the product details">
+  <div class="flex flex-col space-y-1.5 p-6">
+    <h3 class="font-semibold leading-none tracking-tight">Product Details</h3>
+
+    <p class="text-sm text-muted-foreground">
+      Lipsum dolor sit amet, consectetur adipiscing elit
+    </p>
+  </div>
+
+  <div class="p-6 pt-0">
+    <div class="grid gap-6">
+      <div class="grid gap-3">
+        <label
+          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="name">
+          Name
+        </label>
+
+        <input
+          type="text"
+          class="flex h-9 rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 w-full"
+          id="name"
+          value="Gamer Gear Pro Controller" />
+      </div>
+
+      <div class="grid gap-3">
+        <label
+          class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="description">
+          Description
+        </label>
+
+        <textarea
+          class="flex w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 min-h-32"
+          id="description">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.</textarea
+        >
+      </div>
+    </div>
+  </div>
+</div>

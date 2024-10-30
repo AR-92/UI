@@ -1,0 +1,80 @@
+<div
+  class="rounded-xl border bg-card text-card-foreground shadow overflow-hidden"
+  x-chunk="A card with a form to upload product images">
+  <div class="flex flex-col space-y-1.5 p-6">
+    <h3 class="font-semibold leading-none tracking-tight">Product Images</h3>
+
+    <p class="text-sm text-muted-foreground">
+      Lipsum dolor sit amet, consectetur adipiscing elit
+    </p>
+  </div>
+
+  <div class="p-6 pt-0">
+    <div class="grid gap-2">
+      <img
+        alt="Product image"
+        loading="lazy"
+        width="300"
+        height="300"
+        decoding="async"
+        data-nimg="1"
+        class="aspect-square w-full rounded-md object-cover"
+        style="color: transparent"
+        src="./assets/img/placeholder.svg" />
+      <div class="grid grid-cols-3 gap-2">
+        <button>
+          <img
+            alt="Product image"
+            loading="lazy"
+            width="84"
+            height="84"
+            decoding="async"
+            data-nimg="1"
+            class="aspect-square w-full rounded-md object-cover"
+            style="color: transparent"
+            src="./assets/img/placeholder.svg" />
+        </button>
+
+        <button>
+          <img
+            alt="Product image"
+            loading="lazy"
+            width="84"
+            height="84"
+            decoding="async"
+            data-nimg="1"
+            class="aspect-square w-full rounded-md object-cover"
+            style="color: transparent"
+            src="./assets/img/placeholder.svg" />
+        </button>
+
+        <button
+          class="flex aspect-square w-full items-center justify-center rounded-md border border-dashed">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-upload h-4 w-4 text-muted-foreground">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+
+            <polyline points="17 8 12 3 7 8"></polyline>
+
+            <line
+              x1="12"
+              x2="12"
+              y1="3"
+              y2="15"></line>
+          </svg>
+
+          <span class="sr-only">Upload</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
