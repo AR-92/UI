@@ -1601,6 +1601,10 @@ body {
   grid-auto-flow: row;
 }
 
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
 .auto-rows-max {
   grid-auto-rows: max-content;
 }
@@ -1619,6 +1623,22 @@ body {
 
 .grid-cols-\[1fr_110px\] {
   grid-template-columns: 1fr 110px;
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-10 {
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+}
+
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-12 {
+  grid-template-rows: repeat(12, minmax(0, 1fr));
 }
 
 .flex-row {
