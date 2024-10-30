@@ -29,7 +29,7 @@
   </div>
 
   <section class="container mt-8">
-    <div class="grid grid-rows-12 grid-flow-col gap-4">
+    <div class="grid grid-cols-4 grid-flow-row gap-4">
       <div
         hx-get="./pages/themes/total-revenue.html"
         hx-trigger="load"
@@ -116,10 +116,12 @@
 
       <div
         hx-get="./pages/themes/payments.html"
+        class="col-span-2"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
       <div
         hx-get="./pages/themes/share-this-document.html"
+        class="col-span-2"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
 
