@@ -1,0 +1,583 @@
+<div
+  class="rounded-xl border bg-card text-card-foreground shadow"
+  x-chunk="A list of products in a table with actions. Each row has an image, name, status, price, total sales, created at and actions.">
+  <div class="flex flex-col space-y-1.5 p-6">
+    <h3 class="font-semibold leading-none tracking-tight">Products</h3>
+
+    <p class="text-sm text-muted-foreground">
+      Manage your products and view their sales performance.
+    </p>
+  </div>
+
+  <div class="p-6 pt-0">
+    <div class="relative w-full overflow-auto">
+      <table class="w-full caption-bottom text-sm">
+        <thead class="[&amp;_tr]:border-b">
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden w-[100px] sm:table-cell">
+              <span class="sr-only">Image</span>
+            </th>
+
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              Name
+            </th>
+
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              Status
+            </th>
+
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              Price
+            </th>
+
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              Total Sales
+            </th>
+
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              Created at
+            </th>
+
+            <th
+              class="h-10 px-2 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <span class="sr-only">Actions</span>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody class="[&amp;_tr:last-child]:border-0">
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden sm:table-cell">
+              <img
+                alt="Product image"
+                loading="lazy"
+                width="64"
+                height="64"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-square rounded-md object-cover"
+                style="color: transparent"
+                src="./assets/img/placeholder.svg" />
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] font-medium">
+              Laser Lemonade Machine
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <div
+                class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                Draft
+              </div>
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              $499.99
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              25
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              2023-07-12 10:42 AM
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                aria-haspopup="true"
+                type="button"
+                id="radix-:Rsqmipuuuuu6ja:"
+                aria-expanded="false"
+                data-state="closed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-ellipsis h-4 w-4">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="19"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="5"
+                    cy="12"
+                    r="1"></circle>
+                </svg>
+
+                <span class="sr-only">Toggle menu</span>
+              </button>
+            </td>
+          </tr>
+
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden sm:table-cell">
+              <img
+                alt="Product image"
+                loading="lazy"
+                width="64"
+                height="64"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-square rounded-md object-cover"
+                style="color: transparent"
+                src="./assets/img/placeholder.svg" />
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] font-medium">
+              Hypernova Headphones
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <div
+                class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                Active
+              </div>
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              $129.99
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              100
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              2023-10-18 03:21 PM
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                aria-haspopup="true"
+                type="button"
+                id="radix-:Rtamipuuuuu6ja:"
+                aria-expanded="false"
+                data-state="closed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-ellipsis h-4 w-4">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="19"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="5"
+                    cy="12"
+                    r="1"></circle>
+                </svg>
+
+                <span class="sr-only">Toggle menu</span>
+              </button>
+            </td>
+          </tr>
+
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden sm:table-cell">
+              <img
+                alt="Product image"
+                loading="lazy"
+                width="64"
+                height="64"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-square rounded-md object-cover"
+                style="color: transparent"
+                src="./assets/img/placeholder.svg" />
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] font-medium">
+              AeroGlow Desk Lamp
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <div
+                class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                Active
+              </div>
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              $39.99
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              50
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              2023-11-29 08:15 AM
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                aria-haspopup="true"
+                type="button"
+                id="radix-:Rtqmipuuuuu6ja:"
+                aria-expanded="false"
+                data-state="closed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-ellipsis h-4 w-4">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="19"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="5"
+                    cy="12"
+                    r="1"></circle>
+                </svg>
+
+                <span class="sr-only">Toggle menu</span>
+              </button>
+            </td>
+          </tr>
+
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden sm:table-cell">
+              <img
+                alt="Product image"
+                loading="lazy"
+                width="64"
+                height="64"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-square rounded-md object-cover"
+                style="color: transparent"
+                src="./assets/img/placeholder.svg" />
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] font-medium">
+              TechTonic Energy Drink
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <div
+                class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                Draft
+              </div>
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              $2.99
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              0
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              2023-12-25 11:59 PM
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                aria-haspopup="true"
+                type="button"
+                id="radix-:Ruamipuuuuu6ja:"
+                aria-expanded="false"
+                data-state="closed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-ellipsis h-4 w-4">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="19"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="5"
+                    cy="12"
+                    r="1"></circle>
+                </svg>
+
+                <span class="sr-only">Toggle menu</span>
+              </button>
+            </td>
+          </tr>
+
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden sm:table-cell">
+              <img
+                alt="Product image"
+                loading="lazy"
+                width="64"
+                height="64"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-square rounded-md object-cover"
+                style="color: transparent"
+                src="./assets/img/placeholder.svg" />
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] font-medium">
+              Gamer Gear Pro Controller
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <div
+                class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                Active
+              </div>
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              $59.99
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              75
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              2024-01-01 12:00 AM
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                aria-haspopup="true"
+                type="button"
+                id="radix-:Ruqmipuuuuu6ja:"
+                aria-expanded="false"
+                data-state="closed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-ellipsis h-4 w-4">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="19"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="5"
+                    cy="12"
+                    r="1"></circle>
+                </svg>
+
+                <span class="sr-only">Toggle menu</span>
+              </button>
+            </td>
+          </tr>
+
+          <tr
+            class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden sm:table-cell">
+              <img
+                alt="Product image"
+                loading="lazy"
+                width="64"
+                height="64"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-square rounded-md object-cover"
+                style="color: transparent"
+                src="./assets/img/placeholder.svg" />
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] font-medium">
+              Luminous VR Headset
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <div
+                class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
+                Active
+              </div>
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              $199.99
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              30
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] hidden md:table-cell">
+              2024-02-14 02:14 PM
+            </td>
+
+            <td
+              class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                aria-haspopup="true"
+                type="button"
+                id="radix-:Rvamipuuuuu6ja:"
+                aria-expanded="false"
+                data-state="closed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-ellipsis h-4 w-4">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="19"
+                    cy="12"
+                    r="1"></circle>
+
+                  <circle
+                    cx="5"
+                    cy="12"
+                    r="1"></circle>
+                </svg>
+
+                <span class="sr-only">Toggle menu</span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="flex items-center p-6 pt-0">
+    <div class="text-xs text-muted-foreground">
+      Showing
+      <strong>1-10</strong>
+
+      of
+      <strong>32</strong>
+
+      <!-- -->
+
+      products
+    </div>
+  </div>
+</div>
