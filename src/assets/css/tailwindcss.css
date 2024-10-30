@@ -2140,6 +2140,10 @@ body {
   padding: 2rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2245,6 +2249,11 @@ body {
   padding-bottom: 2rem;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -2327,6 +2336,14 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {

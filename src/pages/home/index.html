@@ -132,25 +132,24 @@
         hx-trigger="load"
         hx-swap="innerHTML"></div>
 
-      <div
-        hx-get="./pages/blocks/no-products.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
+      <div class="flex gap-4 col-span-2">
+        <div class="flex flex-col gap-4">
+          <div
+            hx-get="./pages/blocks/product-images.html"
+            hx-trigger="load"
+            hx-swap="innerHTML"></div>
+          <div
+            hx-get="./pages/blocks/no-products.html"
+            class="h-full"
+            hx-trigger="load"
+            hx-swap="innerHTML"></div>
+        </div>
 
-      <div
-        hx-get="./pages/charts/radar-chart/grid-filled.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/product-images.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/order.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
+        <div
+          hx-get="./pages/blocks/order.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
+      </div>
 
       <div
         hx-get="./pages/blocks/login.html"
@@ -179,25 +178,27 @@
           hx-swap="innerHTML"></div>
       </div>
 
-      <div
-        hx-get="./pages/charts/radar-chart/grid-circle-filled.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
+      <div class="grid grid-cols-2 col-span-2 gap-4">
+        <div
+          hx-get="./pages/charts/radar-chart/grid-circle-filled.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
 
-      <div
-        hx-get="./pages/charts/radial-chart/text.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
+        <div
+          hx-get="./pages/charts/radial-chart/text.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
 
-      <div
-        hx-get="./pages/charts/radial-chart/stacked.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
+        <div
+          hx-get="./pages/charts/radial-chart/stacked.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
 
-      <div
-        hx-get="./pages/charts/bar-chart/active.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
+        <div
+          hx-get="./pages/charts/radar-chart/grid-filled.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
+      </div>
 
       <div
         hx-get="./pages/home/notifications.html"
