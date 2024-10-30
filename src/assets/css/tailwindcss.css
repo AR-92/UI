@@ -1226,6 +1226,10 @@ body {
   min-height: 100vh;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-1 {
   width: 0.25rem;
 }

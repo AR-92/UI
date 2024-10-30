@@ -32,6 +32,7 @@
     <div class="grid grid-cols-4 grid-flow-row gap-4">
       <div
         hx-get="./pages/themes/total-revenue.html"
+        class="min-h-full"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
       <div
@@ -47,6 +48,7 @@
       <div
         hx-get="./pages/blocks/charts/bar.html"
         hx-trigger="load"
+        class="h-fill"
         hx-swap="innerHTML"></div>
 
       <div
@@ -138,7 +140,7 @@
         hx-swap="innerHTML"></div>
 
       <div
-        hx-get="./pages/blocks/upgrade-to-pro.html"
+        hx-get="./pages/charts/radar-chart/grid-filled.html"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
 
@@ -154,17 +156,7 @@
         hx-swap="innerHTML"></div>
 
       <div
-        hx-get="./pages/blocks/product-detail.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
         hx-get="./pages/blocks/order.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/this-week.html"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
 
@@ -181,42 +173,49 @@
       <div
         hx-get="./pages/charts/bar-chart/horizontal.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
 
-      <div
-        hx-get="./pages/charts/radar-chart/grid-filled.html"
-        hx-trigger="load"
-        hx-swap="outerHTML"></div>
+      <div class="flex flex-col gap-4">
+        <div
+          hx-get="./pages/blocks/upgrade-to-pro.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
+
+        <div
+          hx-get="./pages/blocks/this-week.html"
+          hx-trigger="load"
+          hx-swap="innerHTML"></div>
+      </div>
 
       <div
         hx-get="./pages/charts/radar-chart/grid-circle-filled.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/charts/radial-chart/text.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/charts/radial-chart/stacked.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/charts/bar-chart/active.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/examples/cards/notifications.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/examples/cards/gallium.html"
         hx-trigger="load"
-        hx-swap="outerHTML"></div>
+        hx-swap="innerHTML"></div>
     </div>
   </section>
 </div>
