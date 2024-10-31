@@ -28,39 +28,16 @@
     </div>
   </div>
 
-  <section class="container mt-8">
-    <div class="grid grid-cols-4 grid-flow-row gap-4">
+  <section class="grid grid-cols-4 gap-4 mt-8 container">
+    <div class="space-y-4">
       <div
         hx-get="./pages/themes/total-revenue.html"
-        class="min-h-full"
         hx-trigger="load"
-        hx-swap="innerHTML"></div>
-      <div
-        hx-get="./pages/blocks/charts/walking-distance.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/charts/progress.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/charts/bar.html"
-        hx-trigger="load"
-        class="h-full"
         hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/themes/subscriptions.html"
-        class="h-full w-full"
         hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/calender.html"
-        hx-trigger="load"
-        class="h-full w-full"
         hx-swap="innerHTML"></div>
 
       <div
@@ -70,72 +47,8 @@
 
       <div
         hx-get="./pages/themes/exercise-minutes.html"
-        class="col-span-2"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/charts/today.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/team-members.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/cookie-settings.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/payment-method.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/chat.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/signup.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/charts/time-in-bed.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/charts/radial.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/blocks/charts/resting.html"
-        class="col-span-2"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div
-        hx-get="./pages/themes/report-an-issue.html"
-        hx-trigger="load"
-        hx-swap="innerHTML"></div>
-
-      <div class="flex flex-col gap-4">
-        <div
-          hx-get="./pages/blocks/product-images.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
-        <div
-          hx-get="./pages/blocks/no-products.html"
-          class="h-full"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
-      </div>
 
       <div
         hx-get="./pages/blocks/login.html"
@@ -152,39 +65,113 @@
         hx-trigger="load"
         hx-swap="innerHTML"></div>
 
-      <div class="flex flex-col gap-4">
-        <div
-          hx-get="./pages/blocks/upgrade-to-pro.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
+      <div
+        hx-get="./pages/blocks/upgrade-to-pro.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+    </div>
+    <div class="space-y-4">
+      <div
+        hx-get="./pages/blocks/charts/time-in-bed.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
 
-        <div
-          hx-get="./pages/blocks/this-week.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
-      </div>
+      <div
+        hx-get="./pages/blocks/charts/today.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
 
-      <div class="grid grid-cols-2 col-span-2 gap-4">
-        <div
-          hx-get="./pages/charts/radar-chart/grid-circle-filled.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
+      <div
+        hx-get="./pages/themes/team-members.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
 
-        <div
-          hx-get="./pages/charts/radial-chart/text.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
+      <div
+        hx-get="./pages/charts/radial-chart/text.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
 
-        <div
-          hx-get="./pages/charts/radial-chart/stacked.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
+      <div
+        hx-get="./pages/blocks/product-images.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+      <div
+        hx-get="./pages/blocks/no-products.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
 
-        <div
-          hx-get="./pages/charts/radar-chart/grid-filled.html"
-          hx-trigger="load"
-          hx-swap="innerHTML"></div>
-      </div>
+      <div
+        hx-get="./pages/blocks/this-week.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/charts/radar-chart/grid-circle-filled.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+    </div>
+
+    <div class="space-y-4">
+      <div
+        hx-get="./pages/blocks/charts/walking-distance.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/themes/cookie-settings.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/charts/radar-chart/grid-filled.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/themes/payment-method.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/blocks/charts/resting.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/themes/report-an-issue.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+    </div>
+    <div class="space-y-4">
+      <div
+        hx-get="./pages/blocks/charts/bar.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/themes/calender.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/blocks/charts/progress.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/themes/chat.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/themes/signup.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
+
+      <div
+        hx-get="./pages/blocks/charts/radial.html"
+        hx-trigger="load"
+        hx-swap="innerHTML"></div>
 
       <div
         hx-get="./pages/home/notifications.html"
@@ -192,8 +179,7 @@
         hx-swap="innerHTML"></div>
 
       <div
-        hx-get="./pages/home/gallium.html"
-        class="col-span-2"
+        hx-get="./pages/charts/radial-chart/stacked.html"
         hx-trigger="load"
         hx-swap="innerHTML"></div>
     </div>

@@ -803,10 +803,6 @@ body {
   margin: auto;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .-mx-1 {
   margin-left: -0.25rem;
   margin-right: -0.25rem;
@@ -1224,10 +1220,6 @@ body {
 
 .min-h-\[calc\(100vh_-_theme\(spacing\.16\)\)\] {
   min-height: calc(100vh - 4rem);
-}
-
-.min-h-full {
-  min-height: 100%;
 }
 
 .min-h-screen {
