@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Loop to check for changes every 10 minutes
