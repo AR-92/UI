@@ -1,71 +1,50 @@
-# UI
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# HTMX + Hyperscript + TailwindCSS UI Library
 
-A minimalistic, open-source UI component library built with HTMX, Hyperscript, and TailwindCSS. This library offers elegant, reusable, and copy-pasteable components inspired by popular libraries like Headless UI, ShadCN, and Skeleton UI.
+Welcome to my HTMX, Hyperscript, and TailwindCSS UI library! This project is inspired by popular UI frameworks such as **Headless UI**, **ShadCN**, and **Skeleton UI**. Designed to be **completely free**, this library allows you to **copy and paste** every component with ease, enabling fast and efficient web development.
 
-## Description
+Please go and check the demo
+[Demo](https://ar-92.github.io/UI/src/index)
 
-This repository contains the UI project, a software development initiative focused on delivering high-quality, efficient solutions. This project demonstrates expertise in modern development practices and technologies.
+> **Status**: 🚧 Work in Progress - Only 10% completed
 
-## Key Features
+## Why This Library?
 
-- Well-structured and maintainable codebase
-- Clear documentation and examples
-- Efficient implementation following best practices
-- Modular design for easy extension and customization
-- Comprehensive error handling and validation
-- Performance-optimized algorithms and data structures
+### 1. **Pure Simplicity**
+   - Every UI component is crafted with simplicity in mind, utilizing **HTMX** for dynamic interactions, **Hyperscript** for event handling, and **TailwindCSS** for styling.
+   - No unnecessary complexity—just **minimal code** to get you the result you want.
 
-## Technologies Used
+### 2. **Copy-Paste Friendly**
+   - Our library is all about speed and convenience. Every element is **copy-pasteable** so you can integrate components directly into your projects without any hassle.
+   - Forget about complex setups or configurations. Just grab what you need and start building!
 
-- Bash/Shell scripting
-- HTML/CSS/JavaScript
-- Node.js
-- Git version control
-- Linux/Unix utilities
-- Modern web development tools and frameworks
+### 3. **Inspired by the Best**
+   - Drawing inspiration from **Headless UI**, **ShadCN**, and **Skeleton UI**, this library takes the best practices from these frameworks and offers them in a streamlined package.
+   - Whether you're looking for flexibility, accessibility, or beautiful design, this library delivers a balanced blend of all three.
 
-## Installation
+### 4. **Tailored for TailwindCSS**
+   - TailwindCSS makes it easy to customize and theme components to fit your brand or project’s design language. With this UI library, you get **pre-built components** ready to adapt to any style.
+   - From buttons and forms to advanced modals and grids, everything is built with utility-first CSS in mind.
 
-```bash
-# Clone the repository
-git clone https://github.com/AR-92/UI.git
-cd UI
+### 5. **Dynamic and Interactive by Default**
+   - Powered by **HTMX** and **Hyperscript**, our components are designed to be interactive and dynamic without the need for JavaScript libraries like React or Vue.
+   - You get **lightweight**, fast-loading components that deliver a **great user experience** without the overhead.
 
-# Follow specific installation instructions based on project type
-```
+## Current Progress
 
-## Usage
+- 📅 **10% Complete**
+- This project is still in the early stages of development. Expect many more components to come soon!
 
-The usage of this project depends on its specific purpose. Please refer to the documentation or source code for detailed instructions on how to use the functionality provided.
+## Future Goals
 
-## Project Structure
+- **Comprehensive Component Library**: Expand the library with a wide variety of components covering everything from simple UI elements to advanced layouts.
+- **Documentation and Examples**: Provide detailed usage examples and documentation to make integration as smooth as possible.
+- **Community Feedback**: We’re committed to growing this project with input from the community. Contributions and suggestions are welcome!
 
-```
-UI/
-├── src/           # Source code files
-├── docs/          # Documentation
-├── tests/         # Test files
-├── README.md      # This file
-└── LICENSE        # License information
-```
+## Get Involved
 
-## Contributing
+If you're interested in contributing to this project, feel free to fork the repo and submit a pull request. Let's make this UI library **the best open-source solution** for developers!
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature-name`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature/your-feature-name`)
-6. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-- GitHub: [AR-92](https://github.com/AR-92)
+Happy coding! ✨
